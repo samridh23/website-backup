@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learn Coding for Free">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="mainstyle.scss">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbrand">
+            <h1><a href="./index.html" class="brand">Maserati</a></h1>
+            <div class="burger" id="burger">
+                <span class="burger-open">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+                        <g fill="#252a32" fill-rule="evenodd">
+                            <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+                        </g>
+                    </svg>
+                </span>
+                <span class="burger-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                        <path fill="#252a32" fill-rule="evenodd" d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z" />
+                    </svg>
+                </span>
+            </div>
+        </div>
+        <ul class="menu" id="menu">
+            <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Courses</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Blog</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">About</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
+        </ul>
+        <div class="social">
+            <a href="#" class="social-item"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-item"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-item"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-item"><i class="fab fa-pinterest"></i></a>
+        </div>
+    </nav>
+    <div class="imagebanner">
+        <div class="images">
+            <img src="images/banner1.png" alt="Banner" class="responsive">
+        </div>
+        <div class="banner-text">
+            <div class="heading">
+                <p>Join our Community</p>
+            </div>
+            <div class="para">
+                <p>Subscribe to our newsletter</p>
+            </div>
+            <!-- Newsletter -->
+            <div class="newsletter">
+                <form>
+                    <input type="email" placeholder="Enter Email..." id= "Email address">
+                    <button type="submit" class="button_1"> Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr class="line-1">
+    <!-- Card Start -->
+    <div class="main-card">
+        <!--Card Text-->
+        <div class="card_title">
+            <h1>Select a Language.</h1>
+        </div>
+        <!--Cards-->
+        <div class="card-container">
+            <a href="index.html">
+                <div class="card-one card-width">
+                    <div class="img-one">
+
+                    </div>
+                    <div class="btn-base btn-one">
+                        <p>Python</p>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Python is an interpreted, high-level and general-purpose programming language.
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <div class="card-two card-width">
+                <a href="index.html">
+                    <div class="img-two">
+
+                    </div>
+                    <div class="btn-base btn-two">
+                        <p>C++</p>
+                    </div>
+                    <div class="content">
+                        <p>
+                            C++ is a programming language created as an extension of the C programming language
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="card-three card-width">
+                <a href="index.html">
+                    <div class="img-three">
+
+                    </div>
+                    <div class="btn-base btn-three">
+                        <p>Java</p>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Java is a class-based, object-oriented programming language.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--Card end-->
+    </div>
+    <!--Java Scripts-->
+    <script src="mainjs.js"></script>
+</body>
+
+</html>
